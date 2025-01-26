@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+
+.headings h1{
+    color: green;
+    text-align: center;
+    margin:0;
+    padding: 0px;
+    background:linear-gradient(orange,yellow);
+mix-blend-mode: color;
+    position:sticky;
+}
+
+.icons{
+display:flex;
+
+}
+.headings img{
+border: 2px solid green;
+border-style: dotted;
+margin: 5px 5px;
+}
+.headings .m1,.m2,.m3,.m4{
+    display:inline;
+   margin: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:orangered;
+  text-decoration:none;
+  text-shadow: 1px 2px red;
+}
+
+.first a{
+color: orange;
+font-size: 30px;
+font-style: italic;
+text-decoration:none; 
+margin: 540px;
+text-align: center;
+
+}
+
+.first a:hover{
+    color: Green;
+}
+.first p{
+    color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.u{
+    color: green;
+}
+.d{
+    color: black;
+}
+.s{
+    color:orangered;
+}
+.timing p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.timing{
+   width: 200px;
+   max-width: fit-content;
+   position: static;
+  background: linear-gradient(orangered,yellow);
+  border: 2px solid black;
+  box-shadow: 2px 1px 2px 3px orangered;
+}
+.timing input{
+   width: 100%;
+   max-width: fit-content;
+margin:5px 5px;
+padding: 2px;
+border-radius: none;
+}
+.timing button{
+   width: 100px;
+   max-width: fit-content;
+  
+}
+.mid{
+    background:linear-gradient(orangered,yellow);
+}
+.last{
+    display:flex;
+background-color: black;
+margin:2px 0;
+
+}
+
+.last li{
+    display:inline;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.last .lc p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+} 
+
+.f input{
+    width:100px;
+    max-width: fit-content;
+    border: 2px solid black;
+
+}
+.f textarea{
+    width:100px;
+    max-width: fit-content;
+    border: 2px solid black;
+
+}
+.f a{
+    text-decoration: none;
+color: blue;
+}
+.f button{
+    width:100px;
+    max-width: 100px;
+   border:2px solid  black;
+} 
+.f p{
+    color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 20px;
+}
+
+.biodata a{
+text-decoration: none;
+margin: 550px;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 2px solid black;
+padding: 10px 10px;
+border-radius: 50px;
+background-color: crimson;
+}
+    </style>
+</head>
+<body>
+    <header>
+<div class="headings">
+<h1>HELLO, WELCOME HERE</h1>
+<div class="icons">
+    <img src="Photo-me.jpg" alt="My photo">
+    <a href="home.html" class="m1">Home</a>
+    <a href="About.html" class="m2">Projects</a>
+    <a href="contacts.html" class="m3">Contacts</a>
+    <a href="profile.html" class="m4">Education & Skills</a>
+</div>
+</div>
+<div class="timing">
+    <input type="date" required>
+    <input type="time" required>
+<button>Search</button>
+<p>Set date and time</p>
+</div>
+<div class="cv">
+    <nav class="biodata">
+<a href="CV-HiranmoyNath.pdf" download>Download CV</a>
+    </nav>
+</div>
+    </header>
+    <main class="mid">
+<nav class="first">
+    <a href="https://github.com/">Github projects</a> 
+    <p>Sign up or log in here to get new updates and follow me</p>
+<details class="details">
+    <summery class="summery">About My self:</summery>
+    <p>UNIVERSITY STUDENT 2ND YEAR 
+        <b class="u">UNIVERSITY NAME: SWAMI VIVEKANANDA UNIVERSITY</b>
+        <strong class="d">DEPARTMENT: B.SC.(H) ADVANCED NETWORKING AND CYBER SECURITY</strong>
+        <b class="s">SCHOOL: NARAYANA SCHOOL,CBSE</b>
+    </p>
+</details>
+</nav>
+<div class="f">
+    <p>Please Ask Question</p>
+<input type="text" placeholder="Quary">
+<textarea cols="20px" rows="10px" placeholder="Elaborate"></textarea>
+<button><a href="question.html">Question</a></button>
+</div>
+    </main>
+    
+    <footer class="last">
+        <span class="lc">
+            <address>
+                <p>Name: Hiranmoy Nath</p>
+                <p>Address: WEST BENGAL,KOLKATA</p>
+                <p>To contact me fill up the form </p>
+            </address>
+                <ul>Skills:
+                    <li>C++ programming</li>
+                    <li>C programming</li>
+                    <li>Html</li>
+                    <li>CSS and Javascript</li>
+                    <li>Ms office</li>
+                    <li>Ms excel</li>
+                </ul>
+        </span>
+    </footer>
+</body>
+</html>
